@@ -48,5 +48,4 @@ def decode_datamatrix():
 
 # Roda a aplicação
 if __name__ == '__main__':
-    # Usar host='0.0.0.0' torna a API acessível na sua rede local
-    app.run(host='0.0.0.0', port=5000, debug=True)
+    app.run()
